@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+
+    <p>Hello World</p>
+    <p>Using getElementByClassName</p>
+    <p>With some styles</p>
+
+    <script>
+        const paragraph = document.getElementsByTagName("p")
+
+        for (let i = 0; paragraph.length; i++) {
+            paragraph[i].style.color = "red"
+        }
+    </script>
+
+</body>
+
+</html>

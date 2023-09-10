@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+
+    <h1 id="text">Hello World</h1>
+
+    <button id="change-btn">Change the text</button>
+
+    <script>
+        const text = document.getElementById("text")
+
+        const myButton = document.getElementById("change-btn")
+
+        myButton.addEventListener("click", function () {
+            text.innerHTML = "After the changes the title is 'Hello DOM'"
+        })
+
+    </script>
+
+</body>
+
+</html>

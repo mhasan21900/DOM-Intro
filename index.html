@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+</head>
+
+<body>
+    <button id="click-btn">Click me</button>
+
+    <script>
+        //select the button elements
+        const myButton = document.getElementById("click-btn")
+
+        //add the event listener after clicking the button
+        myButton.addEventListener("click", function () {
+            // alert("You just clicked on the button")
+            console.log("Clicked the button")
+        })
+    </script>
+</body>
+
+</html>
